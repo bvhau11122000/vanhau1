@@ -1,0 +1,136 @@
+/*html{
+    font-size: 24px;
+
+}
+h1{
+    color: var(--text-color)
+    
+}
+#first-heading {
+    color:red;
+}
+.second-heading{
+    color:greenyellow;
+}
+:root{
+
+    --text-color: red;
+}
+.box{
+    width: 50vw;
+    height: 100px;
+    background-color: blue;
+}
+h1:hover{
+    color: aliceblue;
+    kích hoạt khi di chuột lên
+}
+h1:active{
+    color:aliceblue;
+    /*bấm vào sẽ hiển thị lên 
+}
+li:first-child{
+    color:aqua;
+
+}*/
+/*.box::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height:50px;
+    background-color: yellow;
+}
+.box::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height:50px;
+    background-color:hsl(191, 73%, 41%);
+}
+h1::first-letter{
+    font-size: 50px;
+}
+h2::first-line{
+    background-color: aquamarine;
+}
+h1::selection{
+    color: blue;
+}
+.box1{
+    background-color: rgb(212, 30, 48);
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: 50px; 
+    float: left;
+    display: 30px;
+    box-sizing: border-box;
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/19/21/17/panda-3334356__340.jpg);
+}
+.box2{
+    background-color: rgb(192, 192, 37);
+    padding: 10px 20px 10px 20px;trên phải dươi trái
+    border: 10px solid rgb(212, 30, 48);
+    display: inline;
+}
+
+.box3{
+    background-color: brown;
+    padding: 20px;
+    border-width: 24px ;
+    border-style: solid;nét liền
+    border-color: blueviolet;
+    display: inline;
+   
+
+}*/
+.haha{
+    width:100%;
+    height: 100vh;
+    background-image: url(./images/meo.jpg);
+    background-size:50%;
+    background-repeat: no-repeat;
+    border: 20px dashed #ddd;
+    padding: 20px;
+    background-position: 30px 10px;
+ position: relative;/*chèn lên trên */
+ position: absolute;/*chèn hết màng hình */
+ position: fixed;/*cố định menu*/
+
+ position:sticky;/*bám dính */
+ position: -webkit-sticky;
+
+/* căn giữa */
+text-align: center;
+/* chìu cao dòng*/
+line-height: 100px;
+/* cách */
+display:flex ;
+margin: auto;
+position: relative;
+/*căn gữa theo chìu dọc*/
+display: flex;
+align-items: center;
+justify-content: center;
+   
+}
+h3::after{
+    content: "";
+    border-left: 3px solid #333;
+    height: 50%;
+    top:50px;
+    transform:translateY(-50%) ;
+
+}
+/* ảnh dự phòng */
+div{
+    width: 200px;
+    height: 100px;
+    background-image: url(./images/meo.jpg),url(./images/khongxacdinh_213x379.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
