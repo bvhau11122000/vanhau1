@@ -30,6 +30,8 @@ confir.log(a);
  var b = 2;
   if(a>b){
     alert('sai');
+  }else{
+   alert('đúng');
   }
 // toán tủ logic
  var a = 1;
@@ -49,9 +51,17 @@ console.log (firsName + " " + lastName)
 
 var namess = 'son';
 names += 'dang ';
-console.log(names);
-
+console.log(names.length);// length: kt độ dài chuổi tính cả dấu cách 
+// indexOf("x",6): vị tri của chuỗi
+//latIndexOf("x"): vtri cuối của chuỗi
+// Cut String '.slice(4,6);' cắt chuổi
 // toán tử so sánh 
+// replace('/js//g),'javascript'): ghi đề lên
+// toUpperCase(): thành chữ viết hoa 
+// toLowerCase(): thành chữ thường 
+//trim(): loại bỏ khoản trắng ở 2 đầu 
+//split(", ") 
+//charAt(1);
 var a = 1;
 var b = 2;
  if(a == b){
@@ -104,6 +114,8 @@ var c  =3;
  * 2 kiểu dữ liệu phức tạp
  * - Function:gọi đc,viết đc... 
  * - Object:
+ * 
+ * toFixed(): làm tròn, rút gọn
  */
 var myObject = {
     name: 'van hau',
@@ -118,3 +130,51 @@ console.log('myObject',myObject);
     'javascript',
     'php'
  ];
+//hàm function
+ function showDialog(){
+   alert('xin chào các bạn');
+ }
+ showDialog();
+ // các loại function
+ // Declaraton function
+ function showMess(){
+
+ }
+// Expression function
+function showmess(){
+}
+var showmess = function(){
+
+}
+
+ // call: mở và đóng ngoặc tròn 
+ // tham sô 
+ function writelog(message,test){
+   console.log(message);
+   console.log(test);
+ }
+writelog(message , test);
+// rturn
+function cong(a,b){
+   return a+b;
+}
+var result = cong (2,3);
+console.log(result);
+//Mảng (array)
+var languages = ['jv','php',
+'ruby'];
+console.log(languages.toString());
+/**
+ * 1. join(" ,"): biến array thành 1 chuổi 
+ * 2. pop(): xóa đi element cuối mảng and trả về element đã xóa
+ * 3. push(): thêm 1 or nhiều vào cuối mảng
+ * 4. shift(): ngược lại with pop
+ * 5. unshift(): gần giống with push
+ * 6. splice(): xóa ,chèn, cắt của cái element của mảng
+ * 7. concat(): nối 2 array 
+ * 8. slice (): cắt mảng
+ * 
+ * 
+ * 
+ * 
+ */
