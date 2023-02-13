@@ -173,8 +173,42 @@ console.log(languages.toString());
  * 6. splice(): xóa ,chèn, cắt của cái element của mảng
  * 7. concat(): nối 2 array 
  * 8. slice (): cắt mảng
- * 
- * 
- * 
- * 
  */
+// object
+var myInfo = {
+   name: 'son dang',
+   age: 18,
+   address: 'ha noi,VN'
+   getName: function(){
+      return this.name;
+   }
+};
+console.log(myInfo.getName());
+// thêm key
+myInfo.email='buivanhau@gmail.com';
+console.log(myInfoƠ[email]);
+console.log(myInfo);
+//lấy key
+console.log(myInfo.age);
+//xóa key
+delete myInfo.age;
+
+//function --> phương thức / method
+// others--> thuộc tính /property
+// object constructor
+function user(firsName,lastName,avatar){
+   this.firsName = firsName;
+   this.lastName = lastName;
+   this.avatar = avatar;
+   this.getName = function(){
+      return '${this.firsName} ${this.lastName}'
+   }
+}
+var author = new user('van','hau',avatar);
+var comment = new user('hoang','vu',avatar);
+
+author.title = 'chi se cho thay di';
+user.comment = 'ko nha thay';
+console.log(author);
+console.log(comment);
+
